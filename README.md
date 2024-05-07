@@ -1,5 +1,6 @@
 # Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
 
+
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
 
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
@@ -8,7 +9,9 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 ### System requirements
 
 -    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
+  
 -    Python Version: Compatible with [Python 3.x](https://www.python.org/download/releases/3.0/).
+  
 -    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
     GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
 
@@ -18,8 +21,11 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 - Tested Version: The notebook has been configured to work on Google Colab with specific paths
     set for Google Drive. Thus, it's tested on the Google Colab environment with
     internet connectivity and access to Google Drive.
+  
 - Access to Google Drive with at least 1 GB of free space.
+  
 - Structure your project (under My Drive folder) as follows:
+  
 
   | Folder Name | Description |
   | ------ | ------ |
@@ -55,7 +61,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
    | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
    | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
    | [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
-   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|for more structured and cleaner training loops|
    | [**segmentation models pytorch**](https://pypi.org/project/segmentation-models-pytorch/0.0.3/)|for pretrained segmentation models|
    | [**matplotlib**](https://matplotlib.org)|for plotting graphs and visualizations|
    | [**numpy**](https://numpy.org)|for numerical operations|
