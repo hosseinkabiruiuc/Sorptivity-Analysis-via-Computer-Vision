@@ -3,6 +3,20 @@
 
 ## Google Drive Setup for Colab Notebook
 
+### Step-by-Step Instructions
+
+- Access to Google Drive with at least 1 GB of free space.
+- Name your main folder (e.g., MyProject) and click Create.
+- Structure your project as follows:
+
+| Folder Name | Description |
+| ------ | ------ |
+| [Colab Notebooks](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)| Main Notebook |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+
+<img src="src/Google%20Drive%20Directory.png" alt="Google Drive Directory" width="50%">
 
 
 ### ✨System requirements✨
