@@ -1,8 +1,7 @@
 # Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
 
-
-<img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="50%" alt="GIF Description">
+## Google Drive Setup for Colab Notebook
 
 
 
@@ -55,6 +54,10 @@
 -    Execution Time:
     The time to run the notebook will heavily depend on the dataset size and your hardware,
     especially whether a GPU is available or not.
+
+## Output
+
+<img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="50%" alt="GIF Description">
 
 
 [Link to dataset](https://drive.google.com/file/d/1uiP14oo8_4OTx6sBgO-uor0SxDhtsdxG/view?usp=sharing)
