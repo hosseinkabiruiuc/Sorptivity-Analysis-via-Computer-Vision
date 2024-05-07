@@ -1,34 +1,37 @@
 # Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
+#### ✨Under Review: Nature Communications✨
 
-## Google Drive Setup for Colab Notebook
-
-### Step-by-Step Instructions
+### Step-by-Step Instructions for Running Colab Notebook
 
 - Access to Google Drive with at least 1 GB of free space.
 - Structure your project (under My Drive folder) as follows:
 
-| Folder Name | Description |
-| ------ | ------ |
-| [Colab Notebook](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|stores the main Jupyter Notebook|
-| [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|stores the weigh matrices from the latest epoch to do prob plot predictions|
-| [src](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
-| [visualization](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing) | stores the predicted binary masks |
-| [dataset.zip](https://drive.google.com/file/d/1D5C6k-oRo9EgWlSMo-OrTfVPaF8FGehr/view?usp=sharing) | includes the train and test (arbitrary) set images|
-| [predictions.zip](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) | includes the compressed predicted prob plots|
+  | Folder Name | Description |
+  | ------ | ------ |
+  | [Colab Notebook](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|stores the main Jupyter Notebook|
+  | [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|stores the weigh matrices from the latest epoch to do prob plot predictions|
+  | [src](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
+  | [visualization](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing) | stores the predicted binary masks |
+  | [dataset.zip](https://drive.google.com/file/d/1D5C6k-oRo9EgWlSMo-OrTfVPaF8FGehr/view?usp=sharing) | includes the train and test (arbitrary) set images|
+  | [predictions.zip](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) | includes the compressed predicted prob plots|
 
 - Your Google Drive directory should be organized as shown below::
 
-<img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="70%">
+  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="70%">
 
 - Open the [model_compile.ipynb](https://drive.google.com/file/d/1OBWePqsPNm9ZQ0nfNJV0asDuayekJtoU/view?usp=sharing) Jupyter notebook in Google Colab.
   
 - Execute the cells sequentially, which will involve mounting the drive, loading data, training models, and visualizing results.
 
 - Execution Time:
-  The time to run the notebook will heavily depend on the dataset size and your hardware, especially whether a GPU is available or not. Using [NVIDIA T4 GPU](https://www.nvidia.com/en-us/data-center/tesla-t4/), It should take ~ 2 hours (with full dataset, i.e., few thousands images) to train the FPN model and less than 1 minute to do [water predictions](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing). 
+  The time to run the notebook will heavily depend on the dataset size and your hardware, especially whether a GPU is available or not. Using [NVIDIA T4 GPU](https://www.nvidia.com/en-us/data-center/tesla-t4/), It should take ~ 2 hours (with full dataset, i.e., few thousands images) to train the FPN model and less than 10 seconds to do [water predictions](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing). 
 
-- Prior to visualizing the segmented mask, the predicted [probability plots](https://drive.google.com/drive/folders/1RBsCfsSSezS4DA9j9n7E43wF65yUBHjg?usp=sharing) folder which is yield after the [FPN or Mask R-CNN model traning](https://drive.google.com/drive/folders/1YjN6jhbAd2zVVBGiKyQb4YMCMZFE1qKw?usp=sharing), should be [compressed](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) and placed in the main directory.  
+- Prior to visualizing the segmented mask, the predicted [probability plots](https://drive.google.com/drive/folders/1RBsCfsSSezS4DA9j9n7E43wF65yUBHjg?usp=sharing) folder which is yield after training the [FPN or Mask R-CNN models](https://drive.google.com/drive/folders/1YjN6jhbAd2zVVBGiKyQb4YMCMZFE1qKw?usp=sharing), should be [compressed](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) and placed in the main directory.
+
+- Real-time water prediction (i.e., model output): 
+
+  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="50%" alt="GIF Description">
 
 
 ### ✨System requirements✨
@@ -52,6 +55,8 @@
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 
+
+### System requirements
 
 
 -    **torch**: Main library for neural network models and GPU computing.
@@ -83,9 +88,4 @@
     
 
 
-## Output
 
-<img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="50%" alt="GIF Description">
-
-
-[Link to dataset](https://drive.google.com/file/d/1uiP14oo8_4OTx6sBgO-uor0SxDhtsdxG/view?usp=sharing)
