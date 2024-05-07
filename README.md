@@ -6,8 +6,7 @@
 ### Step-by-Step Instructions
 
 - Access to Google Drive with at least 1 GB of free space.
-- Name your main folder (e.g., MyProject) and click Create.
-- Structure your project (under the main folder) as follows:
+- Structure your project (under My Drive folder) as follows:
 
 | Folder Name | Description |
 | ------ | ------ |
