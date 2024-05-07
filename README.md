@@ -51,7 +51,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 - Model output: real-time water prediction: 
 
-  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="30%" alt="GIF Description">
+  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/visualization/output.gif" width="50%" alt="GIF Description">
 
 ##
 ### Software Dependencies
