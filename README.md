@@ -70,10 +70,10 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
    | Libraries | Explanation/ Justification |
    | ------ | ------ |
-   | [**models.py**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
-   | [**dataset_loader.py**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
-   | [**evaluation.py**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
-   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
-   | [**util.py**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
-   | [**visualize.py**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+   | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|for opening, manipulating, and saving image file formats|
+   | [**dataset_loader.py**](https://drive.google.com/file/d/1fbbW1KSw90h59OQxc6bTUrAApJmLZ78Z/view?usp=sharing)|for neural network models and GPU computing|
+   | [**evaluation.py**](https://drive.google.com/file/d/1-fuBl38ZN8SW4F6B7SXVs0ycbRhM4YVn/view?usp=sharing)|for image transformations and dataset loaders|
+   | [**colormap_m2.py**](https://drive.google.com/file/d/1LvstrVvB-VjAiWCGhWZ12MsKCQdxr-Xt/view?usp=sharing)|more structured and cleaner training loops|
+   | [**util.py**](https://drive.google.com/file/d/1cZ2r58EHfoNZvYtvih7LMPVWQeU1yY25/view?usp=sharing)|more structured and cleaner training loops|
+   | [**visualize.py**](https://drive.google.com/file/d/1bmumXqfe-h_ZtAUqhzmdIoWugE_AmfYU/view?usp=sharing)|more structured and cleaner training loops|
 
