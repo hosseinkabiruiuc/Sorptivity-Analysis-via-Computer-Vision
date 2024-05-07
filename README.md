@@ -15,20 +15,20 @@
 
 ### ✨Software Dependencies✨
 
-    Google Colab: For mounting Google Drive and notebook operations.
-    PIL: For image manipulation.
-    torch: Main library for neural network models and GPU computing.
-    torchvision: For image transformations and dataset loaders.
-    pytorch_lightning: For more structured and cleaner training loops.
-    matplotlib: For plotting graphs and visualizations.
-    numpy: For numerical operations.
-    segmentation_models_pytorch: For pretrained segmentation models.
-    plotly: For interactive visualizations.
-    pandas: For data manipulation and reading/writing CSV files.
-    re: For regular expression operations.
-    pathlib: For system path operations.
-    io: For handling IO operations.
-    Other custom scripts (models, dataset_loader, evaluation, util, visualize) are used, 
+-    **Google Colab**: For mounting Google Drive and notebook operations.
+-    **PIL**: For image manipulation.
+-    **torch**: Main library for neural network models and GPU computing.
+-    **torchvision**: For image transformations and dataset loaders.
+-    **pytorch lightning**: For more structured and cleaner training loops.
+-    matplotlib: For plotting graphs and visualizations.
+-    numpy: For numerical operations.
+-    segmentation_models_pytorch: For pretrained segmentation models.
+-    plotly: For interactive visualizations.
+-    pandas: For data manipulation and reading/writing CSV files.
+-    re: For regular expression operations.
+-    pathlib: For system path operations.
+-    io: For handling IO operations.
+-    Other custom scripts (models, dataset_loader, evaluation, util, visualize) are used, 
     so ensure these are included in the system path or installation directory.
 
 ### ✨Tested Versions✨
