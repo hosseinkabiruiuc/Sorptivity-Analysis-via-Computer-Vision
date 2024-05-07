@@ -5,6 +5,14 @@
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 ##
+### System requirements
+
+-    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
+-    Python Version: Compatible with [Python 3.x](https://www.python.org/download/releases/3.0/).
+-    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
+    GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
+
+##
 ### Step-by-Step Instructions for Running Colab Notebook
 
 - Tested Version: The notebook has been configured to work on Google Colab with specific paths
@@ -38,14 +46,6 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 - Model output: real-time water prediction: 
 
   <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="30%" alt="GIF Description">
-
-##
-### System requirements
-
--    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
--    Python Version: Compatible with [Python 3.x](https://www.python.org/download/releases/3.0/).
--    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
-    GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
 
 ##
 ### Software Dependencies
