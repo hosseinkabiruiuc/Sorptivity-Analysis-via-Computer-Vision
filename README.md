@@ -50,25 +50,26 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 ### ✨Software Dependencies✨
 
-| Libraries | Description |
-| ------ | ------ |
-| [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
-| [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
-| [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
-| [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
-| [**matplotlib**]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
+   | Libraries | Explanation/ Justification |
+   | ------ | ------ |
+   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
+   | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
+   | [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
+   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+   | [**segmentation models pytorch**](https://pypi.org/project/segmentation-models-pytorch/0.0.3/)|for pretrained segmentation models|
+   | [**matplotlib**](https://matplotlib.org)|for plotting graphs and visualizations|
+   | [**numpy**](https://numpy.org)|for numerical operations|
+   | [**plotly**](https://plotly.com/python/)|for interactive visualizations|
+   | [**pandas**](https://pandas.pydata.org)|For data manipulation and reading/writing CSV files|
+   | [****]()|adds support for opening, manipulating, and saving image file formats|
+   | [****]()|adds support for opening, manipulating, and saving image file formats|
+   | [****]()|adds support for opening, manipulating, and saving image file formats|
+   | [****]()|adds support for opening, manipulating, and saving image file formats|
+   | [****]()|adds support for opening, manipulating, and saving image file formats|
 
 
 ### Custom Scripts
 
--    **matplotlib**: For plotting graphs and visualizations.
--    **numpy**: For numerical operations.
--    **segmentation models pytorch**: For pretrained segmentation models.
--    **plotly**: For interactive visualizations.
 -    **pandas**: For data manipulation and reading/writing CSV files.
 -    **re**: For regular expression operations.
 -    **pathlib**: For system path operations.
@@ -76,18 +77,6 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 -    **other custom scripts** (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) are used, 
     so ensure these are included in the system path or installation directory.
 
-### ✨Tested Versions✨
-
--    The notebook has been configured to work on Google Colab with specific paths
-    set for Google Drive. Thus, it's tested on the Google Colab environment with
-    internet connectivity and access to Google Drive.
-        
-
-### ✨Typical Execution Time✨
-
--    Local Machine:
-    Installation of Python and dependencies should take about 15-30 minutes on a normal
-    desktop computer, depending on your internet connection.
     
 
 
