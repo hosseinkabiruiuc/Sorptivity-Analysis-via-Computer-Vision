@@ -8,6 +8,9 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 ### Step-by-Step Instructions for Running Colab Notebook
 
+- Tested Version: The notebook has been configured to work on Google Colab with specific paths
+    set for Google Drive. Thus, it's tested on the Google Colab environment with
+    internet connectivity and access to Google Drive.
 - Access to Google Drive with at least 1 GB of free space.
 - Structure your project (under My Drive folder) as follows:
 
@@ -22,7 +25,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 - Your Google Drive directory should be organized as shown below::
 
-  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="70%">
+  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="60%">
 
 - Open the [model_compile.ipynb](https://drive.google.com/file/d/1OBWePqsPNm9ZQ0nfNJV0asDuayekJtoU/view?usp=sharing) Jupyter notebook in Google Colab.
   
@@ -33,9 +36,9 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 - Prior to visualizing the segmented mask, the predicted [probability plots](https://drive.google.com/drive/folders/1RBsCfsSSezS4DA9j9n7E43wF65yUBHjg?usp=sharing) folder which is yield after training the [FPN or Mask R-CNN models](https://drive.google.com/drive/folders/1YjN6jhbAd2zVVBGiKyQb4YMCMZFE1qKw?usp=sharing), should be [compressed](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) and placed in the main directory.
 
-- Real-time water prediction (i.e., model output): 
+- Model output: real-time water prediction: 
 
-  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="50%" alt="GIF Description">
+  <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="30%" alt="GIF Description">
 
 
 ### ✨System requirements✨
@@ -49,23 +52,19 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 | Libraries | Description |
 | ------ | ------ |
-| [**PIL**](https://pillow.readthedocs.io/en/stable/)|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
-| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
+| [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
+| [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
+| [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+| [**matplotlib**]()|adds support for opening, manipulating, and saving image file formats|
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 | [****]()|adds support for opening, manipulating, and saving image file formats|
 
 
-### System requirements
+### Custom Scripts
 
-
--    **torch**: Main library for neural network models and GPU computing.
--    **torchvision**: For image transformations and dataset loaders.
--    **pytorch lightning**: For more structured and cleaner training loops.
 -    **matplotlib**: For plotting graphs and visualizations.
 -    **numpy**: For numerical operations.
 -    **segmentation models pytorch**: For pretrained segmentation models.
