@@ -4,6 +4,7 @@
 
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
+##
 ### Step-by-Step Instructions for Running Colab Notebook
 
 - Tested Version: The notebook has been configured to work on Google Colab with specific paths
@@ -38,6 +39,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
   <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="30%" alt="GIF Description">
 
+##
 ### System requirements
 
 -    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
@@ -45,6 +47,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 -    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
     GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
 
+##
 ### Software Dependencies
 
    | Libraries | Explanation/ Justification |
@@ -62,19 +65,15 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
    | [**pathlib**](https://docs.python.org/3/library/pathlib.html)|for system path operations|
    | [**io**](https://docs.python.org/3/library/io.html)|for handling IO operations|
 
+##
 ### Custom Scripts
 
    | Libraries | Explanation/ Justification |
    | ------ | ------ |
-   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
-   | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
-   | [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
+   | [**models.py**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
+   | [**dataset_loader.py**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
+   | [**evaluation.py**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
    | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
-
--    **other custom scripts** (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) are used, 
-    so ensure these are included in the system path or installation directory.
-
-    
-
-
+   | [**util.py**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+   | [**visualize.py**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
 
