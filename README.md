@@ -58,28 +58,27 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
    | Libraries | Justification |
    | ------ | ------ |
-   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
-   | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
-   | [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
-   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|for more structured and cleaner training loops|
-   | [**segmentation models pytorch**](https://pypi.org/project/segmentation-models-pytorch/0.0.3/)|for pretrained segmentation models|
-   | [**matplotlib**](https://matplotlib.org)|for plotting graphs and visualizations|
-   | [**numpy**](https://numpy.org)|for numerical operations|
-   | [**plotly**](https://plotly.com/python/)|for interactive visualizations|
-   | [**pandas**](https://pandas.pydata.org)|for data manipulation and reading/writing CSV files|
-   | [**re**](https://docs.python.org/3/library/re.html)|for regular expression operations|
-   | [**pathlib**](https://docs.python.org/3/library/pathlib.html)|for system path operations|
-   | [**io**](https://docs.python.org/3/library/io.html)|for handling IO operations|
+   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|used for opening, manipulating, and saving image file formats|
+   | [**torch**](https://pypi.org/project/torch/)|implemented for neural network models and GPU computing|
+   | [**torchvision**](https://pytorch.org/vision/stable/index.html)| imported for image transformations and dataset loaders|
+   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|applied for more structured and cleaner training loops|
+   | [**segmentation models pytorch**](https://pypi.org/project/segmentation-models-pytorch/0.0.3/)|employed for pretrained segmentation models|
+   | [**matplotlib**](https://matplotlib.org)|deployed for plotting graphs and visualizations|
+   | [**numpy**](https://numpy.org)|adopted for numerical operations|
+   | [**plotly**](https://plotly.com/python/)|leveraged for interactive visualizations|
+   | [**pandas**](https://pandas.pydata.org)|activated for data manipulation and reading/writing CSV files|
+   | [**re**](https://docs.python.org/3/library/re.html)|incorporated for regular expression operations|
+   | [**pathlib**](https://docs.python.org/3/library/pathlib.html)|used for system path operations|
+   | [**io**](https://docs.python.org/3/library/io.html)|implemented for handling IO operations|
 
 ##
 ### Custom Scripts
 
    | Libraries | Explanation |
    | ------ | ------ |
-   | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|for opening, manipulating, and saving image file formats|
-   | [**dataset_loader.py**](https://drive.google.com/file/d/1fbbW1KSw90h59OQxc6bTUrAApJmLZ78Z/view?usp=sharing)|for neural network models and GPU computing|
-   | [**evaluation.py**](https://drive.google.com/file/d/1-fuBl38ZN8SW4F6B7SXVs0ycbRhM4YVn/view?usp=sharing)|for image transformations and dataset loaders|
-   | [**colormap_m2.py**](https://drive.google.com/file/d/1LvstrVvB-VjAiWCGhWZ12MsKCQdxr-Xt/view?usp=sharing)|more structured and cleaner training loops|
-   | [**util.py**](https://drive.google.com/file/d/1cZ2r58EHfoNZvYtvih7LMPVWQeU1yY25/view?usp=sharing)|more structured and cleaner training loops|
-   | [**visualize.py**](https://drive.google.com/file/d/1bmumXqfe-h_ZtAUqhzmdIoWugE_AmfYU/view?usp=sharing)|more structured and cleaner training loops|
+   | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|defines a PyTorch Lightning model for image segmentation, incorporating training, validation, and model management features like checkpointing and early stopping|
+   | [**dataset_loader.py**](https://drive.google.com/file/d/1fbbW1KSw90h59OQxc6bTUrAApJmLZ78Z/view?usp=sharing)|manages the loading and preprocessing of image datasets for segmentation tasks, supporting both real and synthetic data|
+   | [**evaluation.py**](https://drive.google.com/file/d/1-fuBl38ZN8SW4F6B7SXVs0ycbRhM4YVn/view?usp=sharing)|calculates the Intersection over Union (IoU) metric for evaluating model performance in tasks involving segmentation or object detection|
+   | [**util.py**](https://drive.google.com/file/d/1cZ2r58EHfoNZvYtvih7LMPVWQeU1yY25/view?usp=sharing)|provides utility functions for file and directory management, and data manipulation in Python|
+   | [**visualize.py**](https://drive.google.com/file/d/1bmumXqfe-h_ZtAUqhzmdIoWugE_AmfYU/view?usp=sharing)|provides functions for visualizing segmentation masks and IoU histograms to assess model predictions against ground truths|
 
