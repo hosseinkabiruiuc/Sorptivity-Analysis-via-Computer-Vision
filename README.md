@@ -25,9 +25,9 @@
 ### ✨System requirements✨
 
 -    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
--    Python Version: Compatible with Python 3.x.
--    Hardware Requirements: Requires a CUDA-capable GPU to ensure model training can leverage 
-    GPU acceleration as indicated by the assertion torch.cuda.is_available().
+-    Python Version: Compatible with [Python 3.x](https://www.python.org/download/releases/3.0/).
+-    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
+    GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
 
 ### ✨Software Dependencies✨
 
