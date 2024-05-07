@@ -16,7 +16,7 @@
     torchvision: For image transformations and dataset loaders.
     pytorch_lightning: For more structured and cleaner training loops.
     matplotlib: For plotting graphs and visualizations.
-    numpy: For numerical operations.
+    - **numpy**: For numerical operations.
     segmentation_models_pytorch: For pretrained segmentation models.
     plotly: For interactive visualizations.
     pandas: For data manipulation and reading/writing CSV files.
