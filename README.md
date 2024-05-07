@@ -50,7 +50,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 ##
 ### Software Dependencies
 
-   | Libraries | Explanation/ Justification |
+   | Libraries | Justification |
    | ------ | ------ |
    | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
    | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
@@ -68,7 +68,7 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 ##
 ### Custom Scripts
 
-   | Libraries | Explanation/ Justification |
+   | Libraries | Explanation |
    | ------ | ------ |
    | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|for opening, manipulating, and saving image file formats|
    | [**dataset_loader.py**](https://drive.google.com/file/d/1fbbW1KSw90h59OQxc6bTUrAApJmLZ78Z/view?usp=sharing)|for neural network models and GPU computing|
