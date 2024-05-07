@@ -21,6 +21,11 @@
 
 <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="50%">
 
+- Open the [model_compile.ipynb](https://drive.google.com/file/d/1OBWePqsPNm9ZQ0nfNJV0asDuayekJtoU/view?usp=sharing) Jupyter notebook in Google Colab.
+  
+- Execute the cells sequentially, which will involve mounting the drive, loading data,
+        training models, and visualizing results.
+
 
 ### ✨System requirements✨
 
@@ -52,15 +57,7 @@
 -    The notebook has been configured to work on Google Colab with specific paths
     set for Google Drive. Thus, it's tested on the Google Colab environment with
     internet connectivity and access to Google Drive.
-
-### ✨Instructions✨
-
--    Open the Jupyter Notebook:
-        Open the model_compile.ipynb notebook in Jupyter or Google Colab.
         
--   Run the Notebook:
-        Execute the cells sequentially, which will involve mounting the drive, loading data,
-        training models, and visualizing results.
 
 ### ✨Typical Installation Time✨
 
