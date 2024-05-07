@@ -4,8 +4,6 @@
 
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
-✨Under Review by Nature Communications✨
-
 ### Step-by-Step Instructions for Running Colab Notebook
 
 - Tested Version: The notebook has been configured to work on Google Colab with specific paths
@@ -16,12 +14,12 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
   | Folder Name | Description |
   | ------ | ------ |
-  | [Colab Notebook](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|stores the main Jupyter Notebook|
-  | [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|stores the weigh matrices from the latest epoch to do prob plot predictions|
-  | [src](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
-  | [visualization](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing) | stores the predicted binary masks |
-  | [dataset.zip](https://drive.google.com/file/d/1D5C6k-oRo9EgWlSMo-OrTfVPaF8FGehr/view?usp=sharing) | includes the train and test (arbitrary) set images|
-  | [predictions.zip](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) | includes the compressed predicted prob plots|
+  | [**Colab Notebook**](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|stores the main Jupyter Notebook|
+  | [**checkpoints**](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|stores the weigh matrices from the latest epoch to do prob plot predictions|
+  | [**src**](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
+  | [**visualization**](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing) | stores the predicted binary masks |
+  | [**dataset.zip**](https://drive.google.com/file/d/1D5C6k-oRo9EgWlSMo-OrTfVPaF8FGehr/view?usp=sharing) | includes the train and test (arbitrary) set images|
+  | [**predictions.zip**](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) | includes the compressed predicted prob plots|
 
 - Your Google Drive directory should be organized as shown below::
 
@@ -40,15 +38,14 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
   <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true" width="30%" alt="GIF Description">
 
-
-### ✨System requirements✨
+### System requirements
 
 -    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
 -    Python Version: Compatible with [Python 3.x](https://www.python.org/download/releases/3.0/).
 -    Hardware Requirements: Requires a [CUDA-capable](https://en.wikipedia.org/wiki/CUDA) GPU to ensure model training can leverage 
     GPU acceleration as indicated by the assertion [torch.cuda.is_available](https://pytorch.org/docs/stable/generated/torch.cuda.is_available.html).
 
-### ✨Software Dependencies✨
+### Software Dependencies
 
    | Libraries | Explanation/ Justification |
    | ------ | ------ |
@@ -60,20 +57,20 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
    | [**matplotlib**](https://matplotlib.org)|for plotting graphs and visualizations|
    | [**numpy**](https://numpy.org)|for numerical operations|
    | [**plotly**](https://plotly.com/python/)|for interactive visualizations|
-   | [**pandas**](https://pandas.pydata.org)|For data manipulation and reading/writing CSV files|
-   | [****]()|adds support for opening, manipulating, and saving image file formats|
-   | [****]()|adds support for opening, manipulating, and saving image file formats|
-   | [****]()|adds support for opening, manipulating, and saving image file formats|
-   | [****]()|adds support for opening, manipulating, and saving image file formats|
-   | [****]()|adds support for opening, manipulating, and saving image file formats|
-
+   | [**pandas**](https://pandas.pydata.org)|for data manipulation and reading/writing CSV files|
+   | [**re**](https://docs.python.org/3/library/re.html)|for regular expression operations|
+   | [**pathlib**](https://docs.python.org/3/library/pathlib.html)|for system path operations|
+   | [**io**](https://docs.python.org/3/library/io.html)|for handling IO operations|
 
 ### Custom Scripts
 
--    **pandas**: For data manipulation and reading/writing CSV files.
--    **re**: For regular expression operations.
--    **pathlib**: For system path operations.
--    **io**: For handling IO operations.
+   | Libraries | Explanation/ Justification |
+   | ------ | ------ |
+   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|for opening, manipulating, and saving image file formats|
+   | [**torch**](https://pypi.org/project/torch/)|for neural network models and GPU computing|
+   | [**torchvision**](https://pytorch.org/vision/stable/index.html)|for image transformations and dataset loaders|
+   | [**pytorch lightning**](https://lightning.ai/docs/pytorch/stable/)|more structured and cleaner training loops|
+
 -    **other custom scripts** (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) are used, 
     so ensure these are included in the system path or installation directory.
 
