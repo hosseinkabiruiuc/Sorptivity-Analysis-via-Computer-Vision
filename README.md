@@ -7,14 +7,15 @@
 
 - Access to Google Drive with at least 1 GB of free space.
 - Name your main folder (e.g., MyProject) and click Create.
-- Structure your project as follows:
+- Structure your project (under the main folder) as follows:
 
 | Folder Name | Description |
 | ------ | ------ |
-| [Colab Notebooks](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|main notebook|
-| [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|[stores the weigh matrices from the latest epoch to do predictions|
+| [Colab Notebook](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|main notebook|
+| [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|[stores the weigh matrices from the latest epoch to do prob plot predictions|
 | [src](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| [visualization](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing) | stores the predicted binary masks |
+| [dataset.zip](https://drive.google.com/file/d/1D5C6k-oRo9EgWlSMo-OrTfVPaF8FGehr/view?usp=sharing) | includes the train and test (arbitrary) set images|
 
 - Your Google Drive driectory should look like below:
 
