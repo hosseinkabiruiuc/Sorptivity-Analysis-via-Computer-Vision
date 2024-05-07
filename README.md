@@ -1,14 +1,17 @@
 # Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
 
-✨System requirements✨
+![GIF Description](https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/Outputs/output.gif?raw=true)
+
+
+# ✨System requirements✨
 
     Operating System: Compatible with systems that support Python and Jupyter notebooks.
     Python Version: Compatible with Python 3.x.
     Hardware Requirements: Requires a CUDA-capable GPU to ensure model training can leverage 
     GPU acceleration as indicated by the assertion torch.cuda.is_available().
 
-✨Software Dependencies✨
+# ✨Software Dependencies✨
 
     google-colab: For mounting Google Drive and notebook operations.
     PIL: For image manipulation.
@@ -26,13 +29,13 @@
     Other custom scripts (models, dataset_loader, evaluation, util, visualize) are used, 
     so ensure these are included in the system path or installation directory.
 
-✨Tested Versions✨
+# ✨Tested Versions✨
 
     The notebook has been configured to work on Google Colab with specific paths
     set for Google Drive. Thus, it's tested on the Google Colab environment with
     internet connectivity and access to Google Drive.
 
-✨Instructions✨
+# ✨Instructions✨
 
     Open the Jupyter Notebook:
         Open the model_compile.ipynb notebook in Jupyter or Google Colab.
@@ -40,7 +43,7 @@
     Run the Notebook:
         Execute the cells sequentially, which will involve mounting the drive, loading data, training models, and visualizing results.
 
-✨Typical Installation Time✨
+# ✨Typical Installation Time✨
 
     Local Machine: Installation of Python and dependencies should take about 15-30 minutes on a normal desktop computer, depending on your internet connection.
     
