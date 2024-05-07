@@ -25,6 +25,9 @@
   
 - Execute the cells sequentially, which will involve mounting the drive, loading data, training models, and visualizing results.
 
+- Execution Time:
+  The time to run the notebook will heavily depend on the dataset size and your hardware, especially whether a GPU is available or not. Using [NVIDIA T4 GPU](https://www.nvidia.com/en-us/data-center/tesla-t4/), It should take ~ 2 hours (with full dataset, i.e., few thousands images) to train the FPN model and less than 1 minute to do [water predictions](https://drive.google.com/drive/folders/1Im6fSw2cN3AlGQRpsc5DogKmQNVvif29?usp=sharing). 
+
 - Prior to visualizing the segmented mask, the predicted [probability plots](https://drive.google.com/drive/folders/1RBsCfsSSezS4DA9j9n7E43wF65yUBHjg?usp=sharing) folder which is yield after the [FPN or Mask R-CNN model traning](https://drive.google.com/drive/folders/1YjN6jhbAd2zVVBGiKyQb4YMCMZFE1qKw?usp=sharing), should be [compressed](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) and placed in the main directory.  
 
 
@@ -37,8 +40,20 @@
 
 ### ✨Software Dependencies✨
 
--    **Google Colab**: For mounting Google Drive and notebook operations.
--    **PIL**: For image manipulation.
+| Libraries | Description |
+| ------ | ------ |
+| [**PIL**](https://pillow.readthedocs.io/en/stable/)|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+| [****]()|adds support for opening, manipulating, and saving image file formats|
+
+
+
 -    **torch**: Main library for neural network models and GPU computing.
 -    **torchvision**: For image transformations and dataset loaders.
 -    **pytorch lightning**: For more structured and cleaner training loops.
@@ -50,7 +65,7 @@
 -    **re**: For regular expression operations.
 -    **pathlib**: For system path operations.
 -    **io**: For handling IO operations.
--    Other custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) are used, 
+-    **other custom scripts** (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) are used, 
     so ensure these are included in the system path or installation directory.
 
 ### ✨Tested Versions✨
@@ -60,15 +75,13 @@
     internet connectivity and access to Google Drive.
         
 
-### ✨Typical Installation Time✨
+### ✨Typical Execution Time✨
 
 -    Local Machine:
     Installation of Python and dependencies should take about 15-30 minutes on a normal
     desktop computer, depending on your internet connection.
     
--    Execution Time:
-    The time to run the notebook will heavily depend on the dataset size and your hardware,
-    especially whether a GPU is available or not.
+
 
 ## Output
 
