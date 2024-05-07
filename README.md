@@ -1,6 +1,8 @@
 # Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
-#### ✨Under Review: Nature Communications✨
+University of Illinois at Urbana-Champaign, Urbana, IL, USA
+
+✨Under Review: Nature Communications✨
 
 ### Step-by-Step Instructions for Running Colab Notebook
 
