@@ -4,7 +4,7 @@
 
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
-✨Under Review: Nature Communications✨
+✨Under Review by Nature Communications✨
 
 ### Step-by-Step Instructions for Running Colab Notebook
 
