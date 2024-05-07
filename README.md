@@ -19,7 +19,7 @@
 
 - Your Google Drive driectory should look like below:
 
-<img src="src/Google%20Drive_Direct.png" alt="Google Drive Directory" width="50%">
+<img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/src/Google%20Drive_%20Dircect.png" alt="Google Drive Directory" width="50%">
 
 
 ### ✨System requirements✨
