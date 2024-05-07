@@ -11,10 +11,12 @@
 
 | Folder Name | Description |
 | ------ | ------ |
-| [Colab Notebooks](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)| Main Notebook |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| [Colab Notebooks](https://drive.google.com/drive/folders/1VXraqL6XG5al7IzVSfAvfs7rNyPc81K6?usp=sharing)|main notebook|
+| [checkpoints](https://drive.google.com/drive/folders/14JEJopo-M52N12BDNKt9hH_71cbjDMsC?usp=sharing)|[stores the weigh matrices from the latest epoch to do predictions|
+| [src](https://drive.google.com/drive/folders/1h4KCDqu05fEYjzmGErJZnSE9ieeHnHZ6?usp=sharing) | accomodates custom scripts (models.py, dataset_loader.py, evaluation.py, util.py, visualize.py) |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
+
+- Your Google Drive driectory should look like below:
 
 <img src="src/Google%20Drive%20Directory.png" alt="Google Drive Directory" width="50%">
 
