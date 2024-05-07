@@ -23,8 +23,9 @@
 
 - Open the [model_compile.ipynb](https://drive.google.com/file/d/1OBWePqsPNm9ZQ0nfNJV0asDuayekJtoU/view?usp=sharing) Jupyter notebook in Google Colab.
   
-- Execute the cells sequentially, which will involve mounting the drive, loading data,
-        training models, and visualizing results.
+- Execute the cells sequentially, which will involve mounting the drive, loading data, training models, and visualizing results.
+
+- Prior to visualizing the segmented mask, the predicted [probability plots](https://drive.google.com/drive/folders/1RBsCfsSSezS4DA9j9n7E43wF65yUBHjg?usp=sharing) which are yeild after the [FPN or Mask R-CNN model traning](https://drive.google.com/drive/folders/1YjN6jhbAd2zVVBGiKyQb4YMCMZFE1qKw?usp=sharing), should be [compressed](https://drive.google.com/file/d/1R6w2CCwDX6SYWtl6j8tSevRXT1v5yXFH/view?usp=sharing) and placed in the main directory.  
 
 
 ### ✨System requirements✨
