@@ -16,7 +16,7 @@
     torchvision: For image transformations and dataset loaders.
     pytorch_lightning: For more structured and cleaner training loops.
     matplotlib: For plotting graphs and visualizations.
-    - **numpy**: For numerical operations.
+    numpy: For numerical operations.
     segmentation_models_pytorch: For pretrained segmentation models.
     plotly: For interactive visualizations.
     pandas: For data manipulation and reading/writing CSV files.
@@ -25,6 +25,12 @@
     io: For handling IO operations.
     Other custom scripts (models, dataset_loader, evaluation, util, visualize) are used, 
     so ensure these are included in the system path or installation directory.
+
+✨Tested Versions✨
+
+    The notebook has been configured to work on Google Colab with specific paths
+    set for Google Drive. Thus, it's tested on the Google Colab environment with
+    internet connectivity and access to Google Drive.
 
 
 [Link to dataset](https://drive.google.com/file/d/1uiP14oo8_4OTx6sBgO-uor0SxDhtsdxG/view?usp=sharing)
