@@ -76,6 +76,8 @@ This section outlines the various libraries and their specific roles that are es
 ##
 ### Custom Scripts
 
+The custom scripts in the Jupyter notebook are essential components for efficiently building, managing, and evaluating image segmentation models. Each script specializes in a different aspect of the workflow—ranging from model architecture and data handling to performance assessment and visualization—ensuring that the process is modular, scalable, and adaptable to different datasets and use cases. This organization facilitates not only the development of robust models but also their thorough analysis and improvement.
+
    | Libraries | Explanation |
    | ------ | ------ |
    | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|defines a PyTorch Lightning model for image segmentation, incorporating training, validation, and model management features like checkpointing and early stopping|
