@@ -6,7 +6,8 @@
 University of Illinois at Urbana-Champaign, Urbana, IL, USA
 
 ##
-Welcome to our GitHub repository, where we host an advanced computer vision model designed for efficient image segmentation. Our system is crafted to run seamlessly on platforms supporting Python and Jupyter Notebooks, utilizing Python 3.x. For optimal performance, a CUDA-capable GPU is required to take advantage of GPU acceleration, ensuring speedy model training and execution. This model has been specifically configured and tested on Google Colab, leveraging Google Drive integration for smooth data management and workflow execution. It supports a structured project setup, with dedicated folders for notebooks, checkpoints, scripts, and visualization outputs. Explore our step-by-step guide to harness the full potential of real-time water prediction and other segmentation tasks efficiently.
+In this GitHub repository, we detail our advanced computer vision model designed for efficient image segmentation. Our system is crafted to run on platforms supporting Python and Jupyter Notebooks. For optimal performance, a CUDA-capable GPU is required. This model has been specifically configured and tested on Google Colab, leveraging Google Drive integration for data management and workflow execution. It supports a structured project setup, with dedicated folders for notebooks, checkpoints, scripts, and visualization outputs. Follow our step-by-step guide to harness the full potential of real-time water prediction and other segmentation tasks efficiently.
+
 ### System requirements
 
 -    Operating System: Compatible with systems that support [Python](https://www.python.org) and [Jupyter Notebooks](https://jupyter.org).
