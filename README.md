@@ -56,6 +56,8 @@ University of Illinois at Urbana-Champaign, Urbana, IL, USA
 ##
 ### Software Dependencies
 
+This section outlines the various libraries and their specific roles that are essential for the functionality of our software. Each dependency is crucial, serving a unique purpose ranging from image processing to deep learning operations and data handling.
+
    | Libraries | Justification |
    | ------ | ------ |
    | [**PIL**](https://pillow.readthedocs.io/en/stable/)|used for opening, manipulating, and saving image file formats|
