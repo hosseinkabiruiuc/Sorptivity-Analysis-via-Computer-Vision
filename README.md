@@ -63,20 +63,20 @@ In this GitHub repository, we detail our advanced computer vision model designed
 
 This section outlines the various libraries and their specific roles that are essential for the functionality of our software. Each dependency is crucial, serving a unique purpose ranging from image processing to deep learning operations and data handling.
 
-   | Libraries | Justification |
-   | ------ | ------ |
-   | [**PIL**](https://pillow.readthedocs.io/en/stable/)|used for opening, manipulating, and saving image file formats|
-   | [**torch**](https://pypi.org/project/torch/)|implemented for neural network models and GPU computing|
-   | [**torchvision**](https://pytorch.org/vision/stable/index.html)| imported for image transformations and dataset loaders|
-   | [**PyTorch lightning**](https://lightning.ai/docs/pytorch/stable/)|applied for more structured and cleaner training loops|
-   | [**segmentation models pytorch**](https://pypi.org/project/segmentation-models-pytorch/0.0.3/)|employed for pre-trained segmentation models|
-   | [**matplotlib**](https://matplotlib.org)|deployed for plotting graphs and visualizations|
-   | [**numpy**](https://numpy.org)|adopted for numerical operations|
-   | [**plotly**](https://plotly.com/python/)|leveraged for interactive visualizations|
-   | [**pandas**](https://pandas.pydata.org)|activated for data manipulation and reading/writing CSV files|
-   | [**re**](https://docs.python.org/3/library/re.html)|incorporated for regular expression operations|
-   | [**pathlib**](https://docs.python.org/3/library/pathlib.html)|used for system path operations|
-   | [**io**](https://docs.python.org/3/library/io.html)|implemented for handling IO operations|
+| Libraries | Justification | Installed Version (Colab)|
+| --------- | ------------- | ------- |
+| [**PIL (Pillow)**](https://pillow.readthedocs.io/en/stable/) | Used for opening, manipulating, and saving image file formats | `9.2.0` |
+| [**torch**](https://pytorch.org) | Implemented for neural network models and GPU computing | `2.0.1` |
+| [**torchvision**](https://pytorch.org/vision/stable/index.html) | Imported for image transformations and dataset loaders |  `0.15.2` |
+| [**PyTorch Lightning**](https://lightning.ai/docs/pytorch/stable/) | Applied for more structured and cleaner training loops | `2.0.5` |
+| [**Segmentation Models PyTorch**](https://github.com/qubvel/segmentation_models.pytorch) | Employed for pre-trained segmentation models | `0.3.0` |
+| [**matplotlib**](https://matplotlib.org) | Deployed for plotting graphs and visualizations | `3.6.3` |
+| [**numpy**](https://numpy.org) | Adopted for numerical operations | `1.24.0` |
+| [**plotly**](https://plotly.com/python/) | Leveraged for interactive visualizations | `5.3.0` |
+| [**pandas**](https://pandas.pydata.org) | Activated for data manipulation and reading/writing CSV files | `1.5.3` |
+| [**re**](https://docs.python.org/3/library/re.html) | Incorporated for regular expression operations | Built-in |
+| [**pathlib**](https://docs.python.org/3/library/pathlib.html) | Used for system path operations | Built-in |
+| [**io**](https://docs.python.org/3/library/io.html) | Implemented for handling IO operations | Built-in |
 
 ##
 ### Hardware Requirements (if running on PC)
