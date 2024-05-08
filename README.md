@@ -92,7 +92,7 @@ This section outlines the various libraries and their specific roles that are es
 - CPU: Modern CPU with at least 4 cores, recommended [Intel Xeon](https://www.intel.com/content/www/us/en/products/details/processors/xeon.html) or [AMD EPYC series](https://www.amd.com/en/processors/epyc-server-cpu-family), to handle parallel processing tasks without bottlenecks.
 - RAM: Minimum 16 GB of [DDR4 RAM](https://en.wikipedia.org/wiki/DDR4_SDRAM), with 32 GB or more recommended for data-intensive applications.
 - Operating System: Must be compatible with Linux ([Ubuntu](https://ubuntu.com), [CentOS](https://www.centos.org)) or Windows Server (2016, 2019) to ensure driver compatibility and system stability.
-- Drivers: NVIDIA driver version compatible with [CUDA](https://developer.nvidia.com/cuda-10.0-download-archive) 10 or newer, ensuring full utilization of GPU features.
+- Drivers: NVIDIA driver version compatible with [CUDA 10](https://developer.nvidia.com/cuda-10.0-download-archive) or newer, ensuring full utilization of GPU features.
 - Network: 1 Gbps Ethernet connection minimum, 10 Gbps recommended for applications involving significant data transfer to and from the server.
 
 ##
