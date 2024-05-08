@@ -59,7 +59,7 @@ In this GitHub repository, we detail our advanced computer vision model designed
 
   <img src="https://github.com/hosseinkabiruiuc/Sorptivity-via-Computer-Vision/blob/main/visualization/output.gif" width="50%" alt="GIF Description">
 
-- Next, by employing our [Machine Learning](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/ML_Penetration/penetration-ann.ipynb) model, the penetration-time graphs could be estimated in real-time as well:
+- Next, by employing our [Machine Learning](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/ML_Penetration/penetration-ann.ipynb) model, the penetration-time graphs are estimated in real-time as well:
 
   <img src="https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/visualization/output2.gif" width="50%" alt="GIF Description">
 
