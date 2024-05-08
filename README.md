@@ -91,3 +91,4 @@ The custom scripts in the Jupyter notebook are essential components for efficien
    | [**util.py**](https://drive.google.com/file/d/1cZ2r58EHfoNZvYtvih7LMPVWQeU1yY25/view?usp=sharing)|provides utility functions for file and directory management, and data manipulation in Python|
    | [**visualize.py**](https://drive.google.com/file/d/1bmumXqfe-h_ZtAUqhzmdIoWugE_AmfYU/view?usp=sharing)|provides functions for visualizing segmentation masks and IoU histograms to assess model predictions against ground truths|
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
