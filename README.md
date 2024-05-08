@@ -102,11 +102,11 @@ The custom scripts in the Jupyter notebook are essential components for efficien
 
    | Libraries | Explanation |
    | ------ | ------ |
-   | [**models.py**](https://drive.google.com/file/d/1T6sRbHbAepBUVcEb64hMdHqAuyk46pvx/view?usp=sharing)|defines a PyTorch Lightning model for image segmentation, incorporating training, validation, and model management features like checkpointing and early stopping|
-   | [**dataset_loader.py**](https://drive.google.com/file/d/1fbbW1KSw90h59OQxc6bTUrAApJmLZ78Z/view?usp=sharing)|manages the loading and preprocessing of image datasets for segmentation tasks, supporting both real and synthetic data|
-   | [**evaluation.py**](https://drive.google.com/file/d/1-fuBl38ZN8SW4F6B7SXVs0ycbRhM4YVn/view?usp=sharing)|calculates the Intersection over Union (IoU) metric for evaluating model performance in tasks involving segmentation or object detection|
-   | [**util.py**](https://drive.google.com/file/d/1cZ2r58EHfoNZvYtvih7LMPVWQeU1yY25/view?usp=sharing)|provides utility functions for file and directory management, and data manipulation in Python|
-   | [**visualize.py**](https://drive.google.com/file/d/1bmumXqfe-h_ZtAUqhzmdIoWugE_AmfYU/view?usp=sharing)|provides functions for visualizing segmentation masks and IoU histograms to assess model predictions against ground truths|
+   | [**models.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/models.py)|defines a PyTorch Lightning model for image segmentation, incorporating training, validation, and model management features like checkpointing and early stopping|
+   | [**dataset_loader.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/dataset_loader.py)|manages the loading and preprocessing of image datasets for segmentation tasks, supporting both real and synthetic data|
+   | [**evaluation.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/evaluation.py)|calculates the Intersection over Union (IoU) metric for evaluating model performance in tasks involving segmentation or object detection|
+   | [**util.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/util.py)|provides utility functions for file and directory management, and data manipulation in Python|
+   | [**visualize.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/visualize.py)|provides functions for visualizing segmentation masks and IoU histograms to assess model predictions against ground truths|
 
-This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) - see the [LICENSE](LICENSE) file for details.
-Copyright (c) [2024] [Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg]
+- This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) - see the [LICENSE](LICENSE) file for details.
+- Copyright (c) [2024] [Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg]
