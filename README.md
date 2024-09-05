@@ -1,4 +1,4 @@
-# Real-time, Low-cost, and Automated Estimation of Cementitious Sorptivity via Computer Vision
+# Automated Estimation of Cementitious Sorptivity via Computer Vision
 
 
 ###  Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg
