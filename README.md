@@ -109,4 +109,4 @@ The custom scripts in the Jupyter notebook are essential components for efficien
    | [**visualize.py**](https://github.com/hosseinkabiruiuc/Sorptivity-Analysis-via-Computer-Vision/blob/main/src/visualize.py)|provides functions for visualizing segmentation masks and IoU histograms to assess model predictions against ground truths|
 
 - This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) - see the [LICENSE](LICENSE) file for details.
-- Copyright (c) [2024] [Hossein Kabir, Jordan Wu, Sunav Dahal, Tony Joo, Nishant Garg]
+- Copyright 2024 University of Illinois Board of Trustees. All Rights Reserved.
